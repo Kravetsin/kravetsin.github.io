@@ -1,0 +1,104 @@
+h1 { 
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    font-family: Current;
+}
+
+img{
+    border: 2px solid rgb(50, 71, 138);
+}
+
+body{
+    background-color: rgb(40, 45, 66);
+}
+
+.neon-text {
+    letter-spacing:20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.134);
+    font-family: BudmoJiggler-Regular;
+    text-shadow: 20px -35px 8px, 0 0 2px, 0 0 1em #ffffff, 0 0 0.5em #ffffff, 0 0 0.1em #ffffff;
+  }
+
+  @keyframes neon-4 {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: #0b3960;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    
+  }
+}
+
+.container {
+    text-align: center;
+    padding: 60px 20px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif; 
+}
+.anim_neon {
+    animation: neon-4 linear infinite 2s;
+}
+.penis{
+    font-size: 45px; 
+    color: rgba(255, 255, 255, 0.342);
+    text-shadow: 0px -0px 10px, 0 0 1px, 0 0 1em #000000, 0 0 0.5em #000000, 0 0 0.1em #000000;
+}
+
+.left{
+    text-align:left;
+}
+
+.right{
+    text-align:right;
+}
+
+@font-face {
+	font-family: 'BudmoJiggler-Regular';
+	src: url('fonts/budmojiggler-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/budmojiggler-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/budmojiggler-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/budmojiggler-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/budmojiggler-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/budmojiggler-regular.svg#budmojiggler-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Current';
+	src: url('fonts/current.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/current.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/current.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/current.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/current.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/current.svg#current') format('svg'); /* Chrome < 4, Legacy iOS */
+}
