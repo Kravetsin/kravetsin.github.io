@@ -1,1 +1,94 @@
-"Hello World" 
+<!DOCTYPE html>
+
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Kravets
+
+    </title>
+    <head>
+        <script src="myScript.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+    </head>
+    <body>
+        <!--Главная надпись-->
+        <div class="container">
+            <h1 class="neon-text">
+                <span class="anim_neon">P</span>R<span class="anim_neon">O</span>JECT
+            </h1>
+        </div>
+        <!--Programmer-->
+        <div>
+            <h2 style="text-align:left;">
+                <a class="penis" href="https://t.me/Kravetsin" target="_blank">
+                Programmer
+                </a>
+
+            <p class="left">
+                <img src="img/photo_5242546908562567154_y.jpg" alt="ya" width="300">
+            </p>
+        </h2>
+        </div>
+        <!--Designer-->
+        <div>
+            <h2 style="text-align:right ;">
+                <a class="penis" href="https://web.telegram.org/k/#830121650" target="_blank">
+                Designer
+                </a>
+            </h2>
+
+            <p class="right">
+                <img src="img/photo_5188175117971209899_y.jpg" alt="ya1" width="300">
+            </p>
+        </div>
+
+        <div>
+            <p id="dataInfo" style="color: white; font-family: Current; font-size: 25px;">
+            </p>
+            <script>
+                document.getElementById("dataInfo").innerHTML = greeting;
+            </script>
+        </div>
+
+        <!--Forms-->
+        <div style="border: 2px solid rgb(50, 71, 138);">
+            <div>
+                <p style="color: white; font-family: Current; font-size: 25px;">
+                    Send message
+                </p>
+            </div>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div>
+                    <input type="text" name="username" value="" placeholder="User name" tabindex="1">
+                </div><br>
+
+                <div>
+                    <input type="text" name="mail" value="" placeholder="mail@gmail.com" tabindex="2">
+                </div><br>
+
+                <div>
+                    <textarea name="message_text" placeholder="Message..."></textarea>
+                </div><br>
+
+                <div>
+                    <button type="submit">
+                        Send
+                    </button>
+
+                    <button type="reset">
+                        Reset
+                    </button>
+                </div>
+
+                <div>
+
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
