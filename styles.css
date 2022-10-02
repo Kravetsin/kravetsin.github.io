@@ -102,3 +102,7 @@ body{
 		url('fonts/current.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('fonts/current.svg#current') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+ 
+.p_palette{
+    color: #ffffff;
+}
