@@ -9,6 +9,7 @@ h2{
 
 img{
     border: 2px solid rgb(50, 71, 138);
+    border-radius: 10px;
 }
 
 body{
@@ -22,7 +23,7 @@ body{
     color: rgba(0, 0, 0, 0.134);
     font-family: BudmoJiggler-Regular;
     text-shadow: 20px -35px 8px, 0 0 2px, 0 0 1em #ffffff, 0 0 0.5em #ffffff, 0 0 0.1em #ffffff;
-  }
+}
 
   @keyframes neon-4 {
     78% {
