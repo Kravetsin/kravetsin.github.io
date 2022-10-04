@@ -1,5 +1,5 @@
 h1 { 
-    font-size: 100px;
+    font-size: 10vw;
     text-align: center;
 }
 
@@ -8,12 +8,15 @@ h2{
 }
 
 img{
+    max-width: 100%;
     border: 2px solid rgb(50, 71, 138);
     border-radius: 10px;
 }
 
 body{
     background-color: rgb(40, 45, 66);
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .neon-text {
