@@ -10,15 +10,15 @@
     <body>
 
         <!-- Счетчик палет -->
-        <div>
+        <div style="border: 2px solid rgb(50, 71, 138);">
             <div>
                 <button id="score" onclick="level_up()" style="font-size: 50px ;">0</button>
             </div>
         </div>
-        <hr><br>
+        <br>
 
         <!-- Вычисление неполной палеты -->
-        <div>
+        <div style="border: 2px solid rgb(50, 71, 138);">
             <div>
                 <button id="b_1" onclick="op='300'">300g</button>
                 <button id="b_2" onclick="op='400'">400g</button>
@@ -35,22 +35,22 @@
 
             <div>
                 <p class="p_palette">Количество рядов:</p>
-                <input type="number" id="num1" min="1" max="15" value="0">
+                <input type="number" id="num1" min="1" max="15" value="0" onmouseover="style.background='yellow'" onmouseleave="style.background='white'">
             </div><hr>
             
             <div>
                 <p class="p_palette">Количество 7-рок(12):</p>
-                <input type="number" id="num2" min="1" max="9" value="0" style="border: 2px;">
+                <input type="number" id="num2" min="1" max="9" value="0" style="border: 2px;" onmouseover="style.background='yellow'" onmouseleave="style.background='white'">
             </div><hr>
 
             <div>
                 <p class="p_palette">Количество 8-рок(15):</p>
-                <input type="number" id="num3" min="1" max="9" value="0">
+                <input type="number" id="num3" min="1" max="9" value="0" onmouseover="style.background='yellow'" onmouseleave="style.background='white'">
             </div><hr>
 
             <div>
                 <p class="p_palette">Остаток:</p>
-                <input type="number" id="num4" min="1" max="8" value="0">
+                <input type="number" id="num4" min="1" max="8" value="0" onmouseover="style.background='yellow'" onmouseleave="style.background='white'">
             </div><hr>
 
             <div>

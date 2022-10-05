@@ -17,4 +17,4 @@ if (time < 10) {
   greeting = "Good evening";
 }
 
-document.createElement("dataInfo") = greeting;
+document.getElementById("dataInfo") = greeting;
