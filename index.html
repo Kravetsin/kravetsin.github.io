@@ -10,6 +10,15 @@
     </head>
     <body>
 
+        <!-- Скролл наверх -->
+        <div id="scroll_btn" class="upward" onclick="scrollTopTop()" onmouseover="changeScroll()">
+            <script> 
+                window.addEventListener('scroll', function(){ 
+                let scroll = document.querySelector('.upward'); 
+                scroll.classList.toggle('active', window.scrollY>500); 
+                })
+            </script>
+        </div>
         <!--Главная надпись-->
         <div class="container">
             <h1 class="neon-text"><span class="anim_neon">P</span>R<span class="anim_neon">O</span>JECT</h1>

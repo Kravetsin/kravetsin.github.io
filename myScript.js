@@ -18,3 +18,18 @@ if (time < 10) {
 }
 
 document.getElementById("dataInfo") = greeting;
+
+function scrollTopTop(){
+  window.scrollTo({ 
+      top:0,  
+      behavior: 'smooth' 
+  }) 
+}
+
+
+let scroll_ch;
+function changeScroll(){
+  document.getElementById('scroll_btn') = scroll_ch;
+
+  scroll_ch = getComputedStyle(document.getElementById('scroll_btn'))
+}
