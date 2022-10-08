@@ -9,16 +9,32 @@
     </head>
     <body>
 
+                <!-- Меню -->
+        <div class="navbar">
+            <a href="index.html">Главная</a>
+            <a href="https://www.youtube.com/channel/UCa9WkTS6IPPprOOgAKS77EA">YouTube</a>
+            <div class="dropdown">
+                <button class="dropbtn">Меню 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="web1.html">Черновик</a>
+                <a href="calcul.html">Калькулятор</a>
+                <a href="#">Coming soon</a>
+                </div>
+            </div> 
+        </div>
+
         <!-- Счетчик палет -->
-        <div style="border: 2px solid rgb(50, 71, 138);">
+        <div style="position: absolute; left: 50%; top: 15%;" class="block, border">
             <div>
-                <button id="score" onclick="level_up()" style="font-size: 50px ;">0</button>
+                <button id="score" onclick="level_up()" style="font-size: 5vw;">Счетчик палет</button>
             </div>
         </div>
         <br>
 
         <!-- Вычисление неполной палеты -->
-        <div style="border: 2px solid rgb(50, 71, 138);">
+        <div class="border">
             <div>
                 <button id="b_1" onclick="op='300'">300g</button>
                 <button id="b_2" onclick="op='400'">400g</button>

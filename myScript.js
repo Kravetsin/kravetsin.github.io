@@ -1,10 +1,5 @@
 "use strict";
 
-const MY_BIRTHDAY = "26.04.1999";
-// alert(`my birthday is ${MY_BIRTHDAY}`);
-// let age = prompt('How old are you?', 18);
-
-
 const time = new Date().getHours();
 
 let greeting;
