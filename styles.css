@@ -78,9 +78,11 @@ a{
     color: #FFF;
     font-family: 'Roboto', sans-serif; 
 }
+
 .anim_neon {
     animation: neon-4 linear infinite 2s;
 }
+
 .penis{
     font-size: 45px; 
     color: rgba(255, 255, 255, 0.342);
@@ -154,23 +156,23 @@ a{
 .navbar {
     overflow: hidden;
     background-color: rgba(51, 51, 51, 0.674);
-  }
+}
   
-  .navbar a {
+.navbar a {
     float: left;
     font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  .dropdown {
+.dropdown {
     float: left;
     overflow: hidden;
-  }
+}
   
-  .dropdown .dropbtn {
+.dropdown .dropbtn {
     font-size: 16px;  
     border: none;
     outline: none;
@@ -179,34 +181,34 @@ a{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-  }
+}
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(50, 71, 138);
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f982;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
-  .dropdown-content a {
+.dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
+}
   
-  .dropdown-content a:hover {
+.dropdown-content a:hover {
     background-color: #ddd;
-  }
+}
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
