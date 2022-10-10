@@ -4,8 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Черновик</title>
     <head>
-        <script src="test.js"></script>
-        <link rel="stylesheet" href="stylesForTest.css">
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="/scripts/like_button.js"></script>
+        <script src="scripts/test.js"></script>
+        <link rel="stylesheet" href="styles/stylesForTest.css">
     </head>
     <body>
 
@@ -49,7 +52,7 @@
         <!-- Надпись: 'Собсна фичи' -->
         <div>
             <h2>Собсна фичи:</h2>
-        </div>
+        </div><hr>
 
         <!-- Выдвижной текст -->
         <div>
@@ -70,7 +73,7 @@
                         </tr>
                     </table>
             </details>
-        </div>
+        </div><hr>
 
         <!-- Слайдер -->
         <div>
@@ -88,6 +91,22 @@
                 <output id="output" name="result" class="penis">50</output>
             </div>
         </div>
-        
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dignissimos dolorem sapiente repellendus molestias 
+                cum ab saepe, est, nihil odio ut, magni rem eaque 
+                aliquid perspiciatis tempora natus excepturi architecto 
+                repellat?</p>
+        </div>
+        <div>
+            <div id="like_button_container"></div>
+        </div>
+      
+        <p>
+            This is the first comment.
+            <!-- We will put our React component inside this div. -->
+            <div class="like_button_container" data-commentid="1"></div>
+          </p>
     </body>
 </html>

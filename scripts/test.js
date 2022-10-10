@@ -6,3 +6,4 @@ function changeValue(event) {
     let output = document.getElementById('output');
     output.value = value;
 }
+

@@ -99,22 +99,22 @@ a{
 
 @font-face {
 	font-family: 'BudmoJiggler-Regular';
-	src: url('fonts/budmojiggler-regular.eot'); /* IE 9 Compatibility Mode */
-	src: url('fonts/budmojiggler-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('fonts/budmojiggler-regular.woff2') format('woff2'), /* Super Modern Browsers */
-		url('fonts/budmojiggler-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('fonts/budmojiggler-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('fonts/budmojiggler-regular.svg#budmojiggler-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('/fonts/budmojiggler-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('/fonts/budmojiggler-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('/fonts/budmojiggler-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/fonts/budmojiggler-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/fonts/budmojiggler-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/fonts/budmojiggler-regular.svg#budmojiggler-regular') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
 @font-face {
 	font-family: 'Current';
-	src: url('fonts/current.eot'); /* IE 9 Compatibility Mode */
-	src: url('fonts/current.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('fonts/current.woff2') format('woff2'), /* Super Modern Browsers */
-		url('fonts/current.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('fonts/current.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('fonts/current.svg#current') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('/fonts/current.eot'); /* IE 9 Compatibility Mode */
+	src: url('/fonts/current.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('/fonts/current.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/fonts/current.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/fonts/current.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/fonts/current.svg#current') format('svg'); /* Chrome < 4, Legacy iOS */
 }
  
 .p_palette{
