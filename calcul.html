@@ -9,7 +9,7 @@
     </head>
     <body>
 
-                <!-- Меню -->
+        <!-- Меню -->
         <div class="navbar">
             <a href="index.html">Главная</a>
             <a href="https://www.youtube.com/channel/UCa9WkTS6IPPprOOgAKS77EA">YouTube</a>
@@ -24,7 +24,7 @@
         </div>
 
         <!-- Счетчик палет -->
-        <div style="position: absolute; left: 50%; top: 15%;" class="block, border">
+        <div style="left: 50%; top: 24%; padding: 10px;" class="col">
             <div>
                 <button id="score" onclick="level_up()" style="font-size: 5vw;">Счетчик палет</button>
             </div>
@@ -33,13 +33,13 @@
 
         <!-- Вычисление неполной палеты -->
         <div class="border">
-            <div>
+            <div class="col">
                 <button id="b_1" onclick="op='300'">300g</button>
                 <button id="b_2" onclick="op='400'">400g</button>
                 <button id="b_3" onclick="op='180'">180g</button>
             </div><br>
 
-            <div>
+            <div class="col">
                 <button onclick="accept_g()">Подтвердить</button>
             </div>
 
@@ -67,7 +67,7 @@
                 <input type="number" id="num4" min="1" max="8" value="0" onmouseover="style.background='yellow'" onmouseleave="style.background='white'">
             </div><hr>
 
-            <div>
+            <div class="col">
                 <button onclick="accept_ks()">Посчитать</button>
             </div>
 
