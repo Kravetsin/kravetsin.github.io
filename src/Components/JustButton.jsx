@@ -1,12 +1,9 @@
-import React, { useState } from "react"
+import React from "react"
 
 const JustButton = (props) => {
-    const click = useState(0)
-    console.log(click)
-
     return(
         <div className="col">
-            <button>{props.text}</button>
+            <a href={props.title} target="blank"><button>{props.text}</button></a>
         </div>
     )
 }

@@ -20,7 +20,7 @@ export default class Description extends Component{
         if (this.state.visibility){
             return(
                 <div>
-                    <h1>{this.props.title}</h1>
+                    <p>{this.props.title}</p>
                     <div className="col">
                         <button onClick={this.handleClick}>Close</button>
                     </div>
@@ -30,9 +30,10 @@ export default class Description extends Component{
         else{
             return(
                 <div className="col">
-                    <button onClick={this.handleClick}>Open</button>
+                    <button onClick={this.handleClick}>Open info</button>
                 </div>
             );
         }
     }
+    
 }

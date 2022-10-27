@@ -15,28 +15,28 @@ body{
 
 img{
     max-width: 100%;
-    border: 2px solid rgb(73, 138, 173);
+    border: 3px solid rgb(73, 138, 173);
     border-radius: 10px;
+    transition: 0.4s;
 }
 
-@font-face {
-	font-family: 'BudmoJiggler-Regular';
-	src: url('./fonts/budmojiggler-regular.eot'); /* IE 9 Compatibility Mode */
-	src: url('./fonts/budmojiggler-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('./fonts/budmojiggler-regular.woff2') format('woff2'), /* Super Modern Browsers */
-		url('./fonts/budmojiggler-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('./fonts/budmojiggler-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('./fonts/budmojiggler-regular.svg#budmojiggler-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+h2{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Current;
 }
 
-@font-face {
-	font-family: 'Current';
-	src: url('./fonts/current.eot'); /* IE 9 Compatibility Mode */
-	src: url('./fonts/current.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('./fonts/current.woff2') format('woff2'), /* Super Modern Browsers */
-		url('./fonts/current.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('./fonts/current.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('./fonts/current.svg#current') format('svg'); /* Chrome < 4, Legacy iOS */
+p{
+    margin: 5px;
+    font-size: 18px;
+}
+
+img:hover{
+    border: 3px solid rgb(0, 186, 59);
+    margin-left:10px;
+    
+    transition: 0.4s;
 }
 
 .col{
@@ -51,7 +51,7 @@ img{
     border: none;
     background: transparent;
     font-size: 1.5rem;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.447);
     padding: 10px;
     border-radius: 10px;
     transition: background 0.3s;
@@ -64,14 +64,87 @@ img{
 
 .header{
     background-color: #000;
-    padding: 20px;
-    font-size: 50px;
-    text-align: center;
+    padding: 10px;
+    font-size: 75px;
+    text-align: left;
     font-family: Current;
+    border-bottom: #fff 3px solid;
+    
 }
 
-img.icon{
-    position: absolute;
-    border: 0;
+.icon{
+    border: rgba(255, 255, 255, 0) 3px solid;
+    transition: 0.8s;
     
+}
+
+.icon:hover{
+    border: rgb(255, 255, 255) 3px solid;
+    border-radius: 100%;
+    transform: rotate(180deg);
+    transition: 0.8s;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn { 
+    border: none;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f98a;
+    min-width: 160px;
+    box-shadow: 10px 8px 16px 10px rgba(0, 0, 0, 0.479);
+    z-index: 1;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.dropdown-content a {
+    
+    float: none;
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+    transition: 0.4s;
+    
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(221, 221, 221);
+    transition: 0.4s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@font-face {
+    font-family: 'BudmoJiggler-Regular';
+    src: url('./fonts/budmojiggler-regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('./fonts/budmojiggler-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+        url('./fonts/budmojiggler-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./fonts/budmojiggler-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/budmojiggler-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/budmojiggler-regular.svg#budmojiggler-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Current';
+    src: url('./fonts/current.eot'); /* IE 9 Compatibility Mode */
+    src: url('./fonts/current.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+        url('./fonts/current.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./fonts/current.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/current.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/current.svg#current') format('svg'); /* Chrome < 4, Legacy iOS */
 }
