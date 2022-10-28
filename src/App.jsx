@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import Header from './Components/Header';
-import Description from './Components/Description';
-import JustButton from './Components/JustButton';
 import MainIco from './Components/MainIco';
 import Profile from './Components/Profile';
 
@@ -11,7 +9,7 @@ export default function App(){
   return(
     <div>
       <MainIco/>
-      <Header title="0VERDOSE team"/><br /><br />
+      <Header title="0VERDOSE"/><br /><br />
 
       <Profile profileLink="https://steamcommunity.com/profiles/76561198130091903/" 
       image="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/579720/18f5c18b83cf9aba982b047d8f9dd45c32d129c2.gif" 

@@ -20,6 +20,18 @@ img{
     transition: 0.4s;
 }
 
+img.profile:hover{
+    border: 3px solid rgb(0, 186, 59);
+    margin-left:10px; 
+    box-shadow: -10px 8px 16px 0px rgba(0, 0, 0, 0.479);  
+    transition: 0.4s;
+}
+
+.center{
+    text-align: center;
+    
+}
+
 h2{
     margin: 5px;
     padding: 5px;
@@ -32,12 +44,6 @@ p{
     font-size: 18px;
 }
 
-img:hover{
-    border: 3px solid rgb(0, 186, 59);
-    margin-left:10px;
-    
-    transition: 0.4s;
-}
 
 .col{
     flex: 1;
@@ -63,26 +69,57 @@ img:hover{
 }
 
 .header{
-    background-color: #000;
+    /* background-color: #000; */
+    background: linear-gradient(-45deg, #000000, #2fb09b, #000000);
     padding: 10px;
-    font-size: 75px;
+    font-size: 70px;
     text-align: left;
     font-family: Current;
     border-bottom: #fff 3px solid;
-    
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .icon{
     border: rgba(255, 255, 255, 0) 3px solid;
-    transition: 0.8s;
-    
+    box-shadow: -10px 8px 5px 0px rgba(0, 0, 0, 0.479);
+    animation: icon-anim 3s ease infinite;
+    transition: 0.8s;   
 }
 
 .icon:hover{
     border: rgb(255, 255, 255) 3px solid;
     border-radius: 100%;
+    box-shadow: 10px -8px 5px 0px rgba(0, 0, 0, 0.479);
     transform: rotate(180deg);
     transition: 0.8s;
+}
+
+@keyframes icon-anim{
+    0%{
+        border: #00000000 3px solid;
+        border-radius: 100%;
+    }
+    50%{
+        border: rgb(255, 255, 255) 3px solid;
+        border-radius: 100%;
+    }
+    100%{
+        border: #00000000 3px solid;
+        border-radius: 100%;
+    }
 }
 
 .dropdown {
@@ -110,7 +147,8 @@ img:hover{
 .dropdown-content a {
     
     float: none;
-    color: black;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     padding: 20px 16px;
     text-decoration: none;
     display: block;
