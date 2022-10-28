@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Header from './Components/Header';
 import MainIco from './Components/MainIco';
 import Profile from './Components/Profile';
+import ScrollToTop from './Components/Scroll';
 
 export default function App(){
   const [] = useState(0)
@@ -11,7 +12,7 @@ export default function App(){
       <MainIco/>
       <Header title="0VERDOSE"/><br /><br />
 
-      <Profile profileLink="https://steamcommunity.com/profiles/76561198130091903/" 
+      <Profile profileLink="https://steamcommunity.com/id/kravetsin/" 
       image="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/579720/18f5c18b83cf9aba982b047d8f9dd45c32d129c2.gif" 
       profileName="Kravets" 
       title="Параметры запуска: -novid –console -high +fps_max 100 -nojoy"/>
@@ -31,6 +32,8 @@ export default function App(){
       <Profile profileLink="https://steamcommunity.com/id/Payorth" 
       profileName="Ебашу в танке"
       image="https://avatars.akamai.steamstatic.com/79afd41a35aea99ea46606fbb7cc569e0e42b26d_full.jpg"/>
+
+      <ScrollToTop/>
     </div>
   )
 }

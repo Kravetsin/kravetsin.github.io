@@ -29,7 +29,6 @@ img.profile:hover{
 
 .center{
     text-align: center;
-    
 }
 
 h2{
@@ -44,10 +43,9 @@ p{
     font-size: 18px;
 }
 
-
 .col{
     flex: 1;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -69,7 +67,6 @@ p{
 }
 
 .header{
-    /* background-color: #000; */
     background: linear-gradient(-45deg, #000000, #2fb09b, #000000);
     padding: 10px;
     font-size: 70px;
@@ -131,6 +128,7 @@ p{
     border: none;
     padding: 14px 16px;
     background-color: inherit;
+    transition: 0.4s;
 }
 
 .dropdown-content {
@@ -144,8 +142,7 @@ p{
     transition: 0.4s;
 }
 
-.dropdown-content a {
-    
+.dropdown-content a { 
     float: none;
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -154,8 +151,7 @@ p{
     display: block;
     text-align: left;
     border-radius: 10px;
-    transition: 0.4s;
-    
+    transition: 0.4s;   
 }
 
 .dropdown-content a:hover {
@@ -163,8 +159,23 @@ p{
     transition: 0.4s;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
+    background-size: 400% 800%;
+    animation: drop linear 0.2s;
+}
+
+@keyframes drop{
+    0%{
+        left: 2%;
+        background-color: #f9f9f900;
+        box-shadow: 10px 8px 16px 10px rgba(0, 0, 0, 0);
+    }
+    100%{
+        left: 0%;
+        background-color: #f9f9f98a;
+        box-shadow: 10px 8px 16px 10px rgba(0, 0, 0, 0.479);
+    }
 }
 
 @font-face {
@@ -185,4 +196,26 @@ p{
         url('./fonts/current.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
         url('./fonts/current.ttf') format('truetype'), /* Safari, Android, iOS */
         url('./fonts/current.svg#current') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.upward{ 
+    position: fixed; 
+    bottom: 340px; 
+    right: 40px; 
+    width: 70px; 
+    height: 70px; 
+    background-size: cover; 
+    cursor: pointer; 
+    visibility: hidden; 
+    opacity: 0; 
+    transition: 0.5s; 
+    border-radius: 100%;
+    border: #fff 3px solid;
+} 
+ 
+.upward.active{ 
+    visibility: visible;
+    opacity: 1;
+    border: 0;
+    bottom: 40px;
 }
