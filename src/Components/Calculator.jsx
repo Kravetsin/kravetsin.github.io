@@ -11,7 +11,7 @@ export default function Calculator(){
                 <button onclick={accept_g}>Подтвердить</button>
             </div>
             <div>
-                <p id="result_g" >Вес не выбран.</p>
+                <p id="result_g">{result_g}</p>
             </div>
             <div>
                 <p>Количество рядов:</p>
@@ -35,6 +35,9 @@ export default function Calculator(){
             <div>
                 <p id="result_all">Количество штук:</p>
             </div>
+            <div>
+                <p>{}</p>
+            </div>
         </div>
     )
 }
@@ -42,35 +45,9 @@ let op;
 let result_g;
 
 function accept_g() {
-
-//   switch (op) {
-//     case '300':
-//       result_g = 'Выбрано 300g';
-//       break;
-//     case '400':
-//       result_g = 'Выбрано 400g';
-//       break;
-//     case '180':
-//       result_g = 'Выбрано 180g';
-//       break;
-//   };
-
-//   switch (op) {
-//     case '300':
-//       arr = 0;
-//       break;
-//     case '400':
-//       arr = 1;
-//       break;
-//     case '180':
-//       arr = 2;
-//       break;
-//   };
   if (op === "300"){
     result_g = "Выбрано 300g"
-  }
-  
-  document.getElementById("result_g").innerHTML = result_g;
+  } 
 }
      
 let arr;

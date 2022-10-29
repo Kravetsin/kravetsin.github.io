@@ -1,11 +1,18 @@
-const inputClick = () => console.log("Clicked")
+import React, { useState } from "react"
 
-const helpText = "Help"
-
-export const elements = <div>
-    <input type="text" placeholder={helpText} onClick={inputClick}/>
+export default function Input(props){
+    const[textt, setText] = useState("Help");
+    return(
+        <div>
+            <input type="text" placeholder={textt}/>
+            <input onClick={() => setText("Hello")} type="submit"/>
 
     {/* Если значение helpText равно "Help" , то выводится Yes или No */}
-    <p>{helpText === "Help" ? "Yes" : "No"}</p>
-</div>
-
+            <p>{textt}</p>
+        </div>
+    )
+};
+Input.defaultProps = {
+    text: 'Help'
+}
+ 

@@ -4,16 +4,20 @@ import MainIco from './Components/MainIco';
 import Profile from './Components/Profile';
 import ScrollToTop from './Components/Scroll';
 import Calculator from './Components/Calculator';
+import Input from './Components/Input';
+import Counter from './Components/Counter';
 
 export default function App(){
-  const [] = useState(0)
+  const [] = useState(0);
 
   return(
     <div>
       <MainIco/>
       <Header title="0VERDOSE"/><br /><br />
+      <Input text = "Sobaka kakala"/>
+      <Counter/>
 
-      <Calculator/>
+      {/* <Calculator/> */}
 
       <Profile profileLink="https://steamcommunity.com/id/kravetsin/" 
       image="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/579720/18f5c18b83cf9aba982b047d8f9dd45c32d129c2.gif" 

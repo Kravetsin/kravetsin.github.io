@@ -134,7 +134,7 @@ p{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f98a;
+    background-color: #f9f9f9ca;
     min-width: 160px;
     box-shadow: 10px 8px 16px 10px rgba(0, 0, 0, 0.479);
     z-index: 1;
@@ -155,7 +155,8 @@ p{
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(57, 56, 56);
+    color: #fff;
     transition: 0.4s;
 }
 
@@ -173,7 +174,7 @@ p{
     }
     100%{
         left: 0%;
-        background-color: #f9f9f98a;
+        background-color: #f9f9f9ca;
         box-shadow: 10px 8px 16px 10px rgba(0, 0, 0, 0.479);
     }
 }
