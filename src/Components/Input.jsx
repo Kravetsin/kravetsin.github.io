@@ -12,7 +12,3 @@ export default function Input(props){
         </div>
     )
 };
-Input.defaultProps = {
-    text: 'Help'
-}
- 

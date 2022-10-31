@@ -14,8 +14,8 @@ export default function App(){
     <div>
       <MainIco/>
       <Header title="0VERDOSE"/><br /><br />
-      <Input text = "Sobaka kakala"/>
-      <Counter/>
+      {/* <Input/>
+      <Counter/> */}
 
       {/* <Calculator/> */}
 

@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    transition: .5s ease-in-out;
 }
 
 html{
@@ -38,6 +40,23 @@ h2{
     font-family: Current;
 }
 
+h2, p, h1 {
+    letter-spacing: 2px;
+}
+
+header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+ }
+
 p{
     margin: 5px;
     font-size: 18px;
@@ -45,8 +64,6 @@ p{
 
 .col{
     flex: 1;
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -69,7 +86,8 @@ p{
 .header{
     background: linear-gradient(-45deg, #000000, #2fb09b, #000000);
     padding: 10px;
-    font-size: 70px;
+    padding-top: 35px;
+    font-size: 80px;
     text-align: left;
     font-family: Current;
     border-bottom: #fff 3px solid;
@@ -93,6 +111,7 @@ p{
     border: rgba(255, 255, 255, 0) 3px solid;
     box-shadow: -10px 8px 5px 0px rgba(0, 0, 0, 0.479);
     animation: icon-anim 3s ease infinite;
+    display: block;
     transition: 0.8s;   
 }
 
@@ -219,4 +238,20 @@ p{
     opacity: 1;
     border: 0;
     bottom: 40px;
+}
+
+@media (max-width: 768px){
+    .center{
+        text-align: left;
+    }
+    .header{
+        font-size: 65px;
+        text-align: left;
+    }
+    .col{
+        align-items: left;
+    }
+    .icon{
+        width: 100px;
+    }
 }
