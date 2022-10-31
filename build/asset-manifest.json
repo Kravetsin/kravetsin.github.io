@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.51536451.css",
-    "main.js": "/static/js/main.cd24cd52.js",
+    "main.css": "/static/css/main.a044fd37.css",
+    "main.js": "/static/js/main.a001e6fb.js",
     "static/media/budmojiggler-regular.svg": "/static/media/budmojiggler-regular.a2cea6b39e88cf59cfb8.svg",
     "static/media/budmojiggler-regular.eot": "/static/media/budmojiggler-regular.ed90b40c38b786fd3b4e.eot",
     "static/media/budmojiggler-regular.ttf": "/static/media/budmojiggler-regular.2fae247cbcb65ef85107.ttf",
@@ -15,11 +15,11 @@
     "static/media/current.woff2": "/static/media/current.f976640b68086d8f08a8.woff2",
     "static/media/pngegg.png": "/static/media/pngegg.3ba2063303e9987506c9.png",
     "index.html": "/index.html",
-    "main.51536451.css.map": "/static/css/main.51536451.css.map",
-    "main.cd24cd52.js.map": "/static/js/main.cd24cd52.js.map"
+    "main.a044fd37.css.map": "/static/css/main.a044fd37.css.map",
+    "main.a001e6fb.js.map": "/static/js/main.a001e6fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.51536451.css",
-    "static/js/main.cd24cd52.js"
+    "static/css/main.a044fd37.css",
+    "static/js/main.a001e6fb.js"
   ]
 }

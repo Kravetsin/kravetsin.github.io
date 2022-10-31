@@ -9,7 +9,7 @@ class Profile extends React.Component{
                     <h2>{this.props.profileName}</h2>
                 </div>
                 <div>
-                    <a href={this.props.profileLink} target="blank"><img className="profile" src={this.props.image} alt="" width={200}/></a>
+                    <a href={this.props.profileLink} target="blank"><img className="profile" src={this.props.image} alt="" width={300}/></a>
                 </div>
                 <div>
                     <Description title={this.props.title}/>
@@ -21,6 +21,6 @@ class Profile extends React.Component{
 }
 Description.defaultProps = {
     title: "Информация недоступна."
-  }
+}
 
 export default Profile;

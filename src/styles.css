@@ -19,6 +19,7 @@ img{
     max-width: 100%;
     border: 3px solid rgb(73, 138, 173);
     border-radius: 10px;
+    animation: show 2s;
     transition: 0.4s;
 }
 
@@ -29,8 +30,9 @@ img.profile:hover{
     transition: 0.4s;
 }
 
-.center{
-    text-align: center;
+p{
+    margin: 5px;
+    font-size: 18px;
 }
 
 h2{
@@ -44,22 +46,11 @@ h2, p, h1 {
     letter-spacing: 2px;
 }
 
-header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .container {
     margin: 0 auto;
     width: 100%;
     max-width: 960px;
     padding: 0 15px;
- }
-
-p{
-    margin: 5px;
-    font-size: 18px;
 }
 
 .col{
@@ -95,9 +86,19 @@ p{
     animation: gradient 10s ease infinite;
 }
 
+.center{
+    text-align: center;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
+    0% {
+        background-position: 0% 50%;
 	}
 	50% {
 		background-position: 100% 50%;
@@ -122,6 +123,7 @@ p{
     transform: rotate(180deg);
     transition: 0.8s;
 }
+
 
 @keyframes icon-anim{
     0%{
@@ -221,7 +223,7 @@ p{
 .upward{ 
     position: fixed; 
     bottom: 340px; 
-    right: 40px; 
+    right: 20px; 
     width: 70px; 
     height: 70px; 
     background-size: cover; 
@@ -237,21 +239,22 @@ p{
     visibility: visible;
     opacity: 1;
     border: 0;
-    bottom: 40px;
+    bottom: 20px;
 }
 
 @media (max-width: 768px){
-    .center{
-        text-align: left;
-    }
     .header{
         font-size: 65px;
         text-align: left;
     }
-    .col{
-        align-items: left;
-    }
     .icon{
         width: 100px;
     }
+    img.profile{
+       width: 250px; 
+    }
+}
+
+@keyframes show{
+    from{width: 0%;}
 }
