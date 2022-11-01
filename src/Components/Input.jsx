@@ -1,7 +1,13 @@
 import React, { useState } from "react"
+import { useEffect } from "react";
 
 export default function Input(props){
     const[textt, setText] = useState("Help");
+
+    useEffect(() => {
+        document.title = `Вы нажали ${textt}`;
+    });
+    
     return(
         <div>
             <input type="text" placeholder={textt}/>

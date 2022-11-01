@@ -77,13 +77,16 @@ h2, p, h1 {
 .header{
     background: linear-gradient(-45deg, #000000, #2fb09b, #000000);
     padding: 10px;
-    padding-top: 35px;
-    font-size: 80px;
-    text-align: left;
-    font-family: Current;
+    padding-top: 35px;   
     border-bottom: #fff 3px solid;
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
+}
+
+.header.header{
+    font-size: 80px;
+    font-family: Current;
+    text-align: left;
 }
 
 .center{
@@ -123,7 +126,6 @@ h2, p, h1 {
     transform: rotate(180deg);
     transition: 0.8s;
 }
-
 
 @keyframes icon-anim{
     0%{
@@ -243,7 +245,7 @@ h2, p, h1 {
 }
 
 @media (max-width: 768px){
-    .header{
+    .header.header{
         font-size: 65px;
         text-align: left;
     }
