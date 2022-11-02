@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a044fd37.css",
+    "main.css": "/static/css/main.b0c5ac66.css",
     "main.js": "/static/js/main.a001e6fb.js",
     "static/media/budmojiggler-regular.svg": "/static/media/budmojiggler-regular.a2cea6b39e88cf59cfb8.svg",
     "static/media/budmojiggler-regular.eot": "/static/media/budmojiggler-regular.ed90b40c38b786fd3b4e.eot",
@@ -15,11 +15,11 @@
     "static/media/current.woff2": "/static/media/current.f976640b68086d8f08a8.woff2",
     "static/media/pngegg.png": "/static/media/pngegg.3ba2063303e9987506c9.png",
     "index.html": "/index.html",
-    "main.a044fd37.css.map": "/static/css/main.a044fd37.css.map",
+    "main.b0c5ac66.css.map": "/static/css/main.b0c5ac66.css.map",
     "main.a001e6fb.js.map": "/static/js/main.a001e6fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a044fd37.css",
+    "static/css/main.b0c5ac66.css",
     "static/js/main.a001e6fb.js"
   ]
 }

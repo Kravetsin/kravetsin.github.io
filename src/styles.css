@@ -19,7 +19,7 @@ img{
     max-width: 100%;
     border: 3px solid rgb(73, 138, 173);
     border-radius: 10px;
-    animation: show 2s;
+    animation: show 1s;
     transition: 0.4s;
 }
 
@@ -44,6 +44,7 @@ h2{
 
 h2, p, h1 {
     letter-spacing: 2px;
+    animation: show 0.5s;
 }
 
 .container {
@@ -57,6 +58,7 @@ h2, p, h1 {
     flex: 1;
     justify-content: space-around;
     align-items: center;
+    animation: show 1.5s;
 }
 
 .col button{
@@ -86,7 +88,26 @@ h2, p, h1 {
 .header.header{
     font-size: 80px;
     font-family: Current;
-    text-align: left;
+    text-align: left;  
+    animation: text-shadow 5s ease infinite;
+}
+
+@keyframes text-shadow{
+    0%{
+        text-shadow: -7px 0px 2px #f0f, 7px 0 2px #0ff;
+    }
+    4%{
+        text-shadow: none;
+    }
+    8%{
+        text-shadow: 7px 0px 2px #f0f, -7px 0 2px #0ff;
+    }
+    12%{
+        text-shadow: none
+    }
+    100%{
+        text-shadow: none
+    }
 }
 
 .center{
@@ -258,5 +279,6 @@ h2, p, h1 {
 }
 
 @keyframes show{
-    from{width: 0%;}
+    from{margin-top: 100%;}
+    from{opacity: 0;}
 }
