@@ -85,7 +85,7 @@ h2, p, h1 {
     animation: gradient 10s ease infinite;
 }
 
-.header.header{
+.header{
     font-size: 80px;
     font-family: Current;
     text-align: left;  
