@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0c5ac66.css",
-    "main.js": "/static/js/main.a001e6fb.js",
+    "main.css": "/static/css/main.fe96c830.css",
+    "main.js": "/static/js/main.2262e050.js",
     "static/media/budmojiggler-regular.svg": "/static/media/budmojiggler-regular.a2cea6b39e88cf59cfb8.svg",
+    "static/media/268894_original_1890x4096.jpg": "/static/media/268894_original_1890x4096.8f81c2bc3e1dbecece94.jpg",
     "static/media/budmojiggler-regular.eot": "/static/media/budmojiggler-regular.ed90b40c38b786fd3b4e.eot",
     "static/media/budmojiggler-regular.ttf": "/static/media/budmojiggler-regular.2fae247cbcb65ef85107.ttf",
     "static/media/current.svg": "/static/media/current.80b7cf8c27f73a227b63.svg",
@@ -15,11 +16,11 @@
     "static/media/current.woff2": "/static/media/current.f976640b68086d8f08a8.woff2",
     "static/media/pngegg.png": "/static/media/pngegg.3ba2063303e9987506c9.png",
     "index.html": "/index.html",
-    "main.b0c5ac66.css.map": "/static/css/main.b0c5ac66.css.map",
-    "main.a001e6fb.js.map": "/static/js/main.a001e6fb.js.map"
+    "main.fe96c830.css.map": "/static/css/main.fe96c830.css.map",
+    "main.2262e050.js.map": "/static/js/main.2262e050.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0c5ac66.css",
-    "static/js/main.a001e6fb.js"
+    "static/css/main.fe96c830.css",
+    "static/js/main.2262e050.js"
   ]
 }
