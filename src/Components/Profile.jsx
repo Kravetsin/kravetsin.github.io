@@ -14,7 +14,6 @@ class Profile extends React.Component{
                 <div>
                     <Description title={this.props.title}/>
                 </div>
-                <hr />
             </div>
         )
     }

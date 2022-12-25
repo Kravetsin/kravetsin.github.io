@@ -10,15 +10,19 @@ html{
 }
 
 body{
-    background-color: #333;
+    background-color: rgb(17, 29, 46);
     color: #fff;
-    max-height: 100vh;
+    max-height: 100%;
+    background-image: url("./img/268894_original_1890x4096.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
 }
 
 img{
     max-width: 100%;
     border: 3px solid rgb(73, 138, 173);
-    border-radius: 10px;
+    border-radius: 20px;
     animation: show 1s;
     transition: 0.4s;
 }
@@ -29,6 +33,7 @@ img.profile:hover{
     box-shadow: -10px 8px 16px 0px rgba(0, 0, 0, 0.479);  
     transition: 0.4s;
 }
+
 
 p{
     margin: 5px;

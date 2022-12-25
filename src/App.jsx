@@ -13,7 +13,7 @@ export default function App(){
   return(
     <div>
       <MainIco/>
-      <Header title="0VERDOSE"/><br /><br />
+      <Header title="PROJECT"/><br /><br />
 
       {/* <Calculator/> */}
 
@@ -21,6 +21,7 @@ export default function App(){
       image="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/579720/18f5c18b83cf9aba982b047d8f9dd45c32d129c2.gif" 
       profileName="Kravets" 
       title="Параметры запуска: -novid –console -high +fps_max 100 -nojoy"/>
+      
 
       <Profile profileLink="https://steamcommunity.com/id/Guilty_crown" 
       profileName="BobiSan"
