@@ -13,9 +13,8 @@ body{
     background-color: rgb(17, 29, 46);
     color: #fff;
     max-height: 100%;
-    background-image: url("./img/268894_original_1890x4096.jpg");
+    /* background-image: url("./img/268894_original_1890x4096.jpg"); */
     background-size: cover;
-    backdrop-filter: blur(5px);
     background-repeat: no-repeat;
 }
 

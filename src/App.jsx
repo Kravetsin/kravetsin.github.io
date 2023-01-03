@@ -22,7 +22,6 @@ export default function App(){
       profileName="Kravets" 
       title="Параметры запуска: -novid –console -high +fps_max 100 -nojoy"/>
       
-
       <Profile profileLink="https://steamcommunity.com/id/Guilty_crown" 
       profileName="BobiSan"
       image="https://avatars.akamai.steamstatic.com/6e91f285c58d4bef9098f2bd83d4bcf4c13276a2_full.jpg"/>
